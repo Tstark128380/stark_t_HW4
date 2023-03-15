@@ -31,7 +31,7 @@ article {
     border: 8px solid gray;
 
     display: inline-block;
-
+    
     margin-left: 12px;
     margin-right: 12px;
     margin-top: 10px;
@@ -81,4 +81,23 @@ ul li {
 
 #done li:nth-child(odd){
     background-color: rgba(0, 255, 0, 0.5);
+}
+
+/* RESPONSIVE CODE*/
+article{
+    width: 100%;
+    margin: 10px 0;
+}
+
+main{
+    margin: 0 12px;
+}
+
+@media(min-width:960px) {
+    article{
+        width: 25%;
+        margin: 10px 12px;
+    }
+
+    main {margin: 0;}
 }
